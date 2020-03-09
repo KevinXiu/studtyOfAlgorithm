@@ -1,11 +1,15 @@
 #include<iostream>
 using namespace std;
+
+//将整个链表逆序 
+
+
+
 struct ListNode
 {
 	int val;
 	ListNode *next;
-};
-
+}; 
 ListNode *reserseList(ListNode *head)
 {
 	ListNode *p = head;
